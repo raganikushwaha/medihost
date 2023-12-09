@@ -96,54 +96,9 @@ body {
 
 /*
 ==========================================
-   about section
+   story section
 ==========================================
 */
-.aboutbg {
-  background-color: rgba(86, 92, 180, 0.1450980392);
-  height: 38.125rem;
-}
-
-.aboutimg {
-  padding: 30px 0px;
-}
-
-.aboutimg .hero1 {
-  border-radius: 10px;
-  position: absolute;
-  z-index: 0;
-}
-
-.aboutimg .hero2 {
-  border-radius: 10px;
-  left: 300px;
-  top: 850px;
-  z-index: 1;
-  position: absolute;
-}
-
-.about {
-  padding: 100px 60px;
-}
-.about h6 {
-  color: #08a637;
-  font-weight: 700;
-  font-size: 20px;
-}
-.about ul {
-  list-style: none;
-  display: flex;
-}
-.about .aboutbtn {
-  background-color: #08a637;
-  border-radius: 10px;
-  padding: 8px 20px;
-  box-shadow: none;
-  border: none;
-  color: white;
-  font-weight: 500;
-}
-
 .story-section {
   width: 100%;
   height: 40.125rem;
@@ -170,6 +125,95 @@ body {
   border: none;
   color: white;
   font-weight: 500;
+}
+
+/*
+==========================================
+    about section
+==========================================
+*/
+.we-help-section {
+  padding: 7rem 0;
+  background-color: rgba(157, 173, 214, 0.2549019608);
+}
+
+.we-help-section .imgs-grid {
+  display: grid;
+  grid-template-columns: repeat(30, 1fr);
+  position: relative;
+}
+
+.we-help-section .imgs-grid .grid {
+  position: relative;
+}
+
+.we-help-section .imgs-grid .grid img {
+  border-radius: 20px;
+  max-width: 100%;
+  height: 400px;
+}
+
+.we-help-section .imgs-grid .grid.grid-1 {
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 15;
+  grid-column: 1/span 15;
+  -ms-grid-row: 1;
+  -ms-grid-row-span: 30;
+  grid-row: 1/span 30;
+}
+
+.we-help-section .imgs-grid .grid.grid-2 {
+  -ms-grid-column: 12;
+  -ms-grid-column-span: 15;
+  grid-column: 10/span 15;
+  -ms-grid-row: 6;
+  -ms-grid-row-span: 30;
+  grid-row: 10/span 30;
+}
+
+.about-content h3 {
+  color: #248a0d;
+  font-weight: 700;
+  font-size: 20px;
+}
+.about-content h2 {
+  font-weight: 700;
+}
+
+.custom-list {
+  width: 100%;
+}
+
+.custom-list li {
+  display: inline-block;
+  width: calc(50% - 20px);
+  margin-bottom: 10px;
+  line-height: 1.5;
+  position: relative;
+  padding-left: 20px;
+}
+
+.custom-list li:before {
+  content: "";
+  width: 8px;
+  height: 8px;
+  border-radius: 10px 100px/120px;
+  background-color: #14a31b;
+  border: 2px solid #0c0d0c;
+  position: absolute;
+  left: 0;
+  top: 8px;
+}
+
+.aboutbtn {
+  background-color: #08a637;
+  border-radius: 10px;
+  padding: 8px 20px;
+  box-shadow: none;
+  border: none;
+  color: white;
+  font-weight: 500;
+  text-decoration: none;
 }
 
 /*
@@ -259,6 +303,85 @@ body {
   border-color: rgb(35, 129, 16);
 }
 
+/*
+==========================================
+     footer section
+==========================================
+*/
+.footer-section {
+  padding: 50px 0;
+  background: #080909;
+}
+
+.footer-section a {
+  text-decoration: none;
+  color: #ffffff;
+  transition: 0.3s all ease;
+}
+
+.footer-section a:hover {
+  color: rgba(66, 203, 241, 0.944);
+}
+
+.footer-section h3 {
+  color: #ffffff;
+  font-weight: 600;
+}
+
+.footer-section i {
+  color: #45bfda;
+  padding: 5px;
+}
+
+@media (min-width: 992px) {
+  .footer-section .links-wrap {
+    margin-top: 54px;
+  }
+}
+.footer-section .links-wrap ul li {
+  margin-bottom: 5px;
+}
+
+.footer-section .footer-logo-wrap .footer-logo {
+  font-size: 32px;
+  font-weight: 500;
+  text-decoration: none;
+  color: #f3f5f7;
+}
+
+.footer-section .custom-social li {
+  margin: 2px;
+  display: inline-block;
+}
+
+.footer-section .custom-social li a {
+  width: 40px;
+  height: 40px;
+  text-align: center;
+  line-height: 40px;
+  display: inline-block;
+  background: #ebeded;
+  color: #1aaedb;
+  border-radius: 50%;
+}
+
+.footer-section .custom-social li a:hover {
+  background: #11adad;
+  color: #ffffff;
+}
+
+.footer-section .border-top {
+  border-color: #dce5e4;
+}
+
+.footer-section .border-top.copyright {
+  font-size: 14px !important;
+  color: #ebf1f3;
+  padding: 0 10px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
 @media screen and (max-width: 991px) {
   .navigation-wrap .nav-item {
     padding: 0 0.3125rem;
@@ -268,9 +391,6 @@ body {
   }
   .topbannercontent {
     left: 2%;
-  }
-  .about {
-    padding: 80px 30px;
   }
   .story-section .text-content {
     width: 80%;

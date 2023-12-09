@@ -50,43 +50,39 @@
 		    </div>  	 
 		</section>
 
-		<!-- feature section -->
-		<section></section>
-        
 
-		<!-- about us -->
+
+		<!-- about section -->
 		<section id="about">
-			<div class="container-fluid aboutbg">
+			<div class="we-help-section">
 				<div class="container">
-				<div class="row">
-					<div class="col-md-6 col-sm-6">
-						<div class="aboutimg">
-							<img class="hero1" src="asset/img/banner.jpg" style="width:350px; height:400px;">
-							<img class="hero2" src="asset/img/hero-fullscreen-bg.jpg" style="width:350px; height:400px;">
+					<div class="row justify-content-between">
+						<div class="col-lg-7 mb-5 mb-lg-0">
+							<div class="imgs-grid">
+								<div class="grid grid-1"><img src="asset/img/banner.jpg" alt="Untree.co"></div>
+								
+								<div class="grid grid-2"><img src=" asset/img/hero-fullscreen-bg.jpg" alt="Untree.co"></div>
+							</div>
+						</div>
+			
+						<div class="col-lg-5 ps-lg-5 about-content">
+							<h3 class="section-title mb-4">About Us</h3>
+							<h2 class="section-title mb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. </h2>
+							<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident soluta voluptate tenetur cum, natus rem praesentium autem rerum sunt a sint. Nihil voluptates, saepe voluptatum amet eligendi ut. Officiis, repudiandae.</p>
+
+							<ul class="list-unstyled custom-list my-4">
+								<li>Lorem ipsum dolor sit</li>
+								<li>Lorem ipsum dolor sit</li>
+								<li>Lorem ipsum dolor sit</li>
+								<li>Lorem ipsum dolor sit</li>
+								<li>Lorem ipsum dolor sit</li>					 
+							</ul>
+							<button class="aboutbtn">Discover More</button>
 						</div>
 					</div>
-					<div class="col-md-6 col-sm-6">
-						<div class="about">
-							<h6>About us</h6>
-							<h1>The Great place of medical hospital center.</h1>
-							<p >Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam et purus a odio  finibus bibendum amet leo.</p>
-							<div class="check">
-								<ul class="">    
-									<li>phramacy on clinic</li>
-									<li>phramacy on clinic</li>
-									<li>phramacy on clinic</li>
-									<li>phramacy on clinic</li> 
-									<li>phramacy on clinic</li>							
-								</ul> 
-							</div>
-							<button class="aboutbtn">Discover More</button>
-						</div>											
-					</div>
 				</div>
-				</div>
-			</div>		 
-		</section>
-		 
+			</div>
+		</section> 
 
 		<!-- section-3 story-->
 		<section id="doctors">
@@ -207,7 +203,89 @@
 					</div>
 				</div>
 			</div>			
-        </section>    
+        </section> 
+		
+		
+
+		<!-- Start Footer Section -->
+		<footer class="footer-section">
+			<div class="container-fluid ">
+				<div class="container">
+					<div class="row g-5 mb-5">
+						<div class="col-lg-2">
+							<div class="mb-4 footer-logo-wrap"><a href="#" class="footer-logo">Med City<span>.</span></a></div>
+							<h3>About us</h3>
+							<ul class="list-unstyled">
+								<li><a href="#">About us</a></li>
+								<li><a href="#">Services</a></li>
+								<li><a href="#">Blog</a></li>
+								<li><a href="#">Contact us</a></li>
+							</ul>
+						</div>
+  
+						<div class="col-lg-10">
+							<div class="row links-wrap">
+								<div class="col-6 col-sm-6 col-md-3">
+									<h3>About us</h3>
+									<ul class="list-unstyled">
+										<li><a href="#">About us</a></li>
+										<li><a href="#">Services</a></li>
+										<li><a href="#">Blog</a></li>
+										<li><a href="#">Contact us</a></li>
+									</ul>
+								</div>	
+							
+								<div class="col-6 col-sm-6 col-md-3">
+									<h3>features</h3>
+									<ul class="list-unstyled">
+										<li><a href="#">Support</a></li>
+										<li><a href="#">Knowledge base</a></li>
+										<li><a href="#">Live chat</a></li>
+									</ul>
+								</div>
+  
+								<div class="col-6 col-sm-6 col-md-3">
+									<h3>About us</h3>
+									<ul class="list-unstyled">
+										<li><a href="#">Jobs</a></li>
+										<li><a href="#">Our team</a></li>
+										<li><a href="#">Leadership</a></li>
+										<li><a href="#">Privacy Policy</a></li>
+									</ul>
+								</div>
+	
+								<div class="col-6 col-sm-6 col-md-3">
+									<h3>Get in touch</h3>
+									<ul class="list-unstyled">
+										<li><i class="fa fa-phone"></i><a href="#"> 1234567890</a></li>
+										<li><i class="fa fa-location"></i><a href="#">Lucknow</a></li>
+										<li><i class="fa fa-envelope"></i><a href="#">medcity@gmail.com</a></li>
+									</ul>
+								</div>
+							</div>			
+              			</div>
+            		</div> 
+          		</div>         
+        	</div>
+			<div class="container-fluid">
+				<div class="border-top copyright">
+					<div class="row pt-4">
+						<div class="col-lg-6">
+							<p class="mb-2 text-center text-lg-start">Copyright All Rights Reserved.</p>
+						</div>
+
+						<div class="col-lg-6 text-center text-lg-end">
+							<ul class="list-unstyled custom-social">
+								<li><a href="#"><span class="fa fa-brands fa-facebook-f"></span></a></li>
+								<li><a href="#"><span class="fa fa-brands fa-twitter"></span></a></li>
+								<li><a href="#"><span class="fa fa-brands fa-instagram"></span></a></li>					
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+  		</footer>
+		<!-- End Footer Section -->	
 
 		
  
@@ -216,7 +294,7 @@
 
   
 
-		 <br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+		 
 		
    
 		 
