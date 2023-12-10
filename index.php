@@ -9,8 +9,11 @@
 		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
 		<link href ="asset/css/style.css" rel="stylesheet">
 		<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" rel="stylesheet">
+		<link rel="stylesheet" type="text/css" href="asset/css/owl.carousel.min.css">
 
 		<title>MediHost</title>
+
+		 
   	</head>
 
 
@@ -89,10 +92,10 @@
 			<div class="story-section">
 				<div class="container">
 					<div class="row">
-						<div class="col-sm-12 col-md-12 mt-5 mb-5">
+						<div class="col-sm-12 col-md-12">
 							<div class="text-content">
-							<h2>Lorem ipsum dolor sit amet, consectetur adipiscing elit. </h2>
-							<h6>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam et purus a odio
+								<h2>Lorem ipsum dolor sit amet, consectetur adipiscing elit. </h2>
+								<h6>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam et purus a odio
 								finibus bibendum in sit amet leo. Mauris feugiat erat tellus.</h6>
 								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam et purus a odio
 								finibus bibendum in sit amet leo. Mauris feugiat erat tellus.
@@ -179,6 +182,101 @@
 			</div>
         </section>
 
+		<!-- testimonials -->
+		<section class="mt-5">
+			<div class="container">
+				<div class="row">
+					<div class="slider-text">
+						<h6> Testimonials</h6>
+						<div class="col-md-4">
+							<h1 > Responsive Owl Carousel </h1>
+							<p > Lorem ipsum dolor sit amet, consectetur adipisicing elit.  inventore nisi velit minima.</p>			 
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="container">			 
+				<div class="slider">
+					<div class="owl-carousel">
+
+						<div class="slider-card">
+							<div class="">
+								<img  class="img-fluid" src=" asset/img/hero-fullscreen-bg.jpg" alt="" >
+							</div>				
+							<p class="text-center">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam temporibus quidem magni qui doloribus quasi natus inventore nisi velit minima.</p>
+							
+							<div class="star-rating text-center">
+								<ul class="list-inline">
+									<li class="list-inline-item"><i class="fa fa-star"></i></li>
+									<li class="list-inline-item"><i class="fa fa-star"></i></li>
+									<li class="list-inline-item"><i class="fa fa-star"></i></li>
+									<li class="list-inline-item"><i class="fa fa-star"></i></li>
+									<li class="list-inline-item"><i class="fa-regular fa-star"></i>
+								</ul>
+							</div>
+							<p class="overview"><b>Michael Holz</b>Seo Analyst </p>						
+						</div>
+
+						<div class="slider-card">
+							<div class="">
+								<img  class="img-fluid" src="asset/img/hero-fullscreen-bg.jpg" alt="" >
+							</div>				
+							<p class="text-center">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam temporibus quidem magni qui doloribus quasi natus inventore nisi velit minima.</p>
+							
+							<div class="star-rating text-center">
+								<ul class="list-inline">
+									<li class="list-inline-item"><i class="fa fa-star"></i></li>
+									<li class="list-inline-item"><i class="fa fa-star"></i></li>
+									<li class="list-inline-item"><i class="fa fa-star"></i></li>
+									<li class="list-inline-item"><i class="fa fa-star"></i></li>
+									<li class="list-inline-item"><i class="fa-regular fa-star"></i>
+								</ul>
+							</div>
+							<p class="overview"><b>Michael Holz</b>Seo Analyst </p>						
+						</div>
+
+						<div class="slider-card">
+							<div class="">
+								<img  class="img-fluid" src="asset/img/hero-fullscreen-bg.jpg" alt="" >
+							</div>				
+							<p class="text-center">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam temporibus quidem magni qui doloribus quasi natus inventore nisi velit minima.</p>
+							
+							<div class="star-rating text-center">
+								<ul class="list-inline">
+									<li class="list-inline-item"><i class="fa fa-star"></i></li>
+									<li class="list-inline-item"><i class="fa fa-star"></i></li>
+									<li class="list-inline-item"><i class="fa fa-star"></i></li>
+									<li class="list-inline-item"><i class="fa fa-star"></i></li>
+									<li class="list-inline-item"><i class="fa-regular fa-star"></i>
+								</ul>
+							</div>
+							<p class="overview"><b>Michael Holz</b>Seo Analyst </p>						
+						</div>
+
+						<div class="slider-card">
+							<div class="">
+								<img  class="img-fluid" src="asset/img/hero-fullscreen-bg.jpg" alt="" >
+							</div>				
+							<p class="text-center">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam temporibus quidem magni qui doloribus quasi natus inventore nisi velit minima.</p>
+							
+							<div class="star-rating text-center">
+								<ul class="list-inline">
+									<li class="list-inline-item"><i class="fa fa-star"></i></li>
+									<li class="list-inline-item"><i class="fa fa-star"></i></li>
+									<li class="list-inline-item"><i class="fa fa-star"></i></li>
+									<li class="list-inline-item"><i class="fa fa-star"></i></li>
+									<li class="list-inline-item"><i class="fa-regular fa-star"></i>
+								</ul>
+							</div>
+							<p class="overview"><b>Michael Holz</b>Seo Analyst </p>						
+						</div>
+						
+					</div>
+				</div>
+		    </div>
+        </section>
+
+
 
 		<!-- section-8 newslettar-->
 		<section id="newslettar">
@@ -193,7 +291,7 @@
 						</div>
 						<form class="newsletter">
 						<div class="row">
-							<div class="col-md-12 mt-4">
+							<div class="col-md-12">
 							    <input class="form-control" placeholder="Email Address here" name="email" type="email">					 
 							    <button class="subscribe-btn" type="submit">Subscribe</button>
 							</div>
@@ -322,15 +420,18 @@
 
 
 
-		<!-- Optional JavaScript; choose one of the two! -->
+		 
 
-		<!-- Option 1: Bootstrap Bundle with Popper -->
-		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+		<!--  js -->
 
-		<!-- Option 2: Separate Popper and Bootstrap JS -->
-		<!--
-		<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
-		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
-		-->
+		<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+		<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" ></script> 
+		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" ></script>
+		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" ></script>
+
+		<script src="asset/js/owl.carousel.min.js"></script>
+	    <script src="asset/js/script.js"></script>
+
+		 
   	</body>
 </html>
