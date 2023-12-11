@@ -182,6 +182,107 @@
 			</div>
         </section>
 
+		<!-- blogs -->
+
+		<div class="container-fluid" style="background-color:  #080909; padding:30px;">
+			<div class="container">
+				<div class="row blogs">
+					<div class="col-md-12 text-white"><h6>Blogs</h6></div>
+					<div class="col-md-12 text-white"><h2>Our stories</h2></div>
+				</div>
+				<div class="row mt-3">
+				
+					<div class="col-md-8 mb-3">
+						<div class="img1">
+							<div class="imgbtn">
+								<button class="img-top-btn" type="submit">Blood</button>
+								<button class="img-top-btn" type="submit">Urgent</button>
+										
+							</div>               
+							<div class="img-overlay">
+								<h6>Lorem, ipsum aperiam rerum odit tenetur nisi inventore, provident aspernatur animi? Odio, qui itaque?</h6>
+								<button class="readmore-btn" type="submit">Read more</button>
+							</div>                 
+												
+						</div>                          
+					</div>
+					<div class="col-md-4">
+						<div class="img1" style="background-image: linear-gradient(to top, rgba(0,0,0,1),rgba(0, 0, 0, 0.450)), url(asset/img/banner.jpg);">
+							<div class="imgbtn">
+							    <button class="img-top-btn" type="submit">Blood</button>
+								<button class="img-top-btn" type="submit">Urgent</button>
+										
+							</div>               
+							<div class="img-overlay">
+								<h6>Lorem, ipsum aperiam rerum odit tenetur nisi inventore, provident aspernatur animi? Odio, qui itaque?</h6>
+								<button class="readmore-btn" type="submit">Read more</button>
+							</div>                                                      
+						</div>            
+
+									
+						<div class="img1" style="background-image: linear-gradient(to top, rgba(0,0,0,1),rgba(0, 0, 0, 0.450)), url(asset/img/banner.jpg);">
+							<div class="imgbtn">
+							    <button class="img-top-btn" type="submit">Blood</button>
+								<button class="img-top-btn" type="submit">Urgent</button>
+										
+							</div>               
+							<div class="img-overlay">
+								<h6>Lorem, ipsum aperiam rerum odit tenetur nisi inventore, provident aspernatur animi? Odio, qui itaque?</h6>
+								<button class="readmore-btn" type="submit">Read more</button>
+							</div>                 
+												
+						</div>           
+					</div>   
+				</div>
+
+				<!-- start secont row -->
+				<div class="row mt-2">
+					<div class="col-md-4">
+						<div class="img1" style="background-image: linear-gradient(to top, rgba(0,0,0,1),rgba(0, 0, 0, 0.450)), url(asset/img/banner.jpg);">
+							<div class="imgbtn">
+							    <button class="img-top-btn" type="submit">Blood</button>
+								<button class="img-top-btn" type="submit">Urgent</button>
+										
+							</div>               
+							<div class="img-overlay">
+								<h6>Lorem, ipsum aperiam rerum odit tenetur nisi inventore, provident aspernatur animi? Odio, qui itaque?</h6>
+								<button class="readmore-btn" type="submit">Read more</button>
+							</div>                                                      
+						</div>            
+
+					
+							
+						<div class="img1" style="background-image: linear-gradient(to top, rgba(0,0,0,1),rgba(0, 0, 0, 0.450)), url(asset/img/banner.jpg);">
+							<div class="imgbtn">
+							    <button class="img-top-btn" type="submit">Blood</button>
+								<button class="img-top-btn" type="submit">Urgent</button>
+										
+							</div>               
+							<div class="img-overlay">
+								<h6>Lorem, ipsum aperiam rerum odit tenetur nisi inventore, provident aspernatur animi? Odio, qui itaque?</h6>
+								<button class="readmore-btn" type="submit">Read more</button>
+							</div>                 
+												
+						</div>           
+					</div>
+					<div class="col-md-8 mb-3">
+						<div class="img1">
+							<div class="imgbtn">
+							    <button class="img-top-btn" type="submit">Blood</button>
+								<button class="img-top-btn" type="submit">Urgent</button>
+										
+							</div>               
+							<div class="img-overlay">
+								<h6>Lorem, ipsum aperiam rerum odit tenetur nisi inventore, provident aspernatur animi? Odio, qui itaque?</h6>
+								<button class="readmore-btn" type="submit">Read more</button>
+							</div>                 
+												
+						</div>                          
+					</div>  
+				</div>
+			</div>     
+        </div>
+
 		<!-- testimonials -->
 		<section class="mt-5">
 			<div class="container">

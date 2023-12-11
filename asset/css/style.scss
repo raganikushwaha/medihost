@@ -450,29 +450,165 @@ body{
 .owl-nav .owl-prev,.owl-next {
    
   display: none;
-}    
+}  
+
+/*
+==========================================
+     blogs section
+==========================================
+*/ 
+
+.img1{
+  width: 100%;
+  height: 40vh;    
+  background-image:linear-gradient(to top, rgba(0,0,0,1),rgba(0, 0, 0, 0.500)), url("../img/hero-fullscreen-bg.jpg");   
+  background-size:  cover;
+  background-position: center ;
+  background-repeat: no-repeat;
+  position: relative;   
+  
+}
 
 
+.img1 .img-overlay{
+ padding:20px; 
+ position: absolute;  
+ bottom: 0; 
 
+}
+.img1 .img-overlay h6{
+      
+  color:#ffff;    
+}
 
-//  media querry for responsive
+.img1 .img-overlay .readmore-btn{
+  color: #080909;  
+  box-shadow: none; 
+  border: none;  
+  background-color:  #ffb012; 
+  padding: 3px  10px;
+  font-size: 15px;
+}
 
- @media screen and (max-width: 991px) {
-  .navigation-wrap .nav-item {
-      padding: 0 0.3125rem;
+.imgbtn{
+  display:flex;
+  position: absolute;  
+  top: 0; 
+  padding:20px; 
+  
+}
+.imgbtn .img-top-btn{
+  background-color: #ffb012;    
+  border-radius: 15px;
+  padding: 4px 10px;
+  box-shadow: none; 
+  border: none;
+  color: #ffff; 
+  font-weight: 400;
+  margin-right: 5px;
+  font-size: 12px;
+  
+}
+
+.col-md-4 .img1{
+  height: 19vh;
+  width: 100%;
+  margin-bottom:18px;
+
+  .img-overlay{
+    padding:8px; 
+    position: absolute;  
+    bottom: 0; 
+   
+   }
+   .img-overlay h6{
+    font-size:10px;
+    color:#ffff;    
+}
+.readmore-btn{
+  color: #080909;   
+  box-shadow: none; 
+  border: none;  
+  background-color:  #ffb012;
+  font-size:10px;
+}
+.imgbtn{
+  display:flex;
+  position: absolute;  
+  top: 0; 
+  padding:10px; 
+  font-size:10px;
+  
+}
+
+}
+
+.blogs{
+  h2{
+      font-weight:700;
+      font-size: 46px;
   }
 
-  .banner-btn {
-      margin-left: 0;
-  }
+}
 
-  .topbannercontent {
-      left: 2%;
+
+
+
+
+
+
+
+
+
+/* Media Query for Tablets and Smaller Screens */
+@media screen and (max-width: 767px) {
+
+
+  .topbanner {
+    height: 60vh;
+}
+
+.topbannercontent {
+    top: 10%;
+}
+
+.banner-btn {
+    margin-left: 1rem;
+}
+  .story-section {
+      padding: 30px;
   }
 
   .story-section .text-content {
-      width: 80%;
-      left: 10%;
+      width: 100%;
+      padding: 30px;
   }
- 
+  .newslettar .newsletter {
+    width: 100%;
 }
+
+}
+
+/* Media Query for Mobile Phones */
+@media screen and (max-width: 480px) {
+
+  .topbanner {
+    height: 45vh;
+    width: 100%;
+}
+
+.topbannercontent {
+    top: 10%;
+    font-size: 10px;
+}
+
+.banner-btn {
+    margin-left: 0.5rem;
+    font-size: 6px;
+}
+  .story-section {
+      padding: 20px;
+  }
+}
+
+ 
