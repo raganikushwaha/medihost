@@ -18,8 +18,33 @@
 
 
   	<body>
-	    <!--  -->
-		<header>
+	    <!-- header -->
+		<div class="navbar navigation-wrap">
+    		<a href="#" class="logo">Logo</a>
+
+			<div class="menu">
+				<ul class="nav-list">
+					<li class="nav-item"><a class="nav-link active" aria-current="page" href="#home">Home</a></li>
+					<li class="nav-item"><a class="nav-link" href="#about">About Us</a></li>
+					<li class="nav-item"><a class="nav-link" href="#doctors">Our Doctors</a></li>
+					<li class="nav-item"><a class="nav-link" href="#services">Services</a></li>
+					<li class="nav-item"><a class="nav-link" href="#about">Hospitals</a></li>
+					<li class="nav-item"><a href="#" class="nav-link">Contact</a></li>
+				</ul>
+			</div>
+    		<button class="button">Contact</button>
+    		<button class="navbar-toggler" onclick="toggleMenu()">☰</button>
+		</div>
+
+		<script>
+			function toggleMenu() {
+				const navbar = document.querySelector('.navbar');
+				navbar.classList.toggle('active');
+			}
+		</script>
+
+
+		<!-- <header>
 			<nav class="navbar navbar-expand-lg navigation-wrap">
 				<div class="container">
 					<a class="navbar-brand" href="#"><img src="images/logo.jpg"></a>
@@ -38,7 +63,7 @@
 					</div>
 				</div>
 			</nav>
-		</header>
+		</header> -->
 
 		<!-- section-1 top-banner -->
 			 
@@ -128,7 +153,7 @@
 					</div>
 					
 					<div class="row mt-5">
-						<div class="col-md-3 mb-5">
+						<div class="col-md-3 mb-3">
 							<div class="card">
 								<div class="cardesign">
 									<i class="fa fa-users fa-2x circle-icon" style="color:#ffff";></i>
@@ -141,7 +166,7 @@
 							</div>
 						</div>
 
-						<div class="col-md-3 mb-5">
+						<div class="col-md-3 mb-3">
 							<div class="card">
 								<div class="cardesign">
 									<i class="fa fa-users fa-2x circle-icon" style="color:#ffff";></i>
@@ -153,7 +178,7 @@
 								</div>
 							</div>
 						</div>
-						<div class="col-md-3 mb-5">
+						<div class="col-md-3 mb-3">
 							<div class="card">
 								<div class="cardesign">
 									<i class="fa fa-users fa-2x circle-icon" style="color:#ffff";></i>
@@ -165,7 +190,7 @@
 								</div>
 							</div>
 						</div>
-						<div class="col-md-3 mb-5">
+						<div class="col-md-3 mb-3">
 							<div class="card">
 								<div class="cardesign">
 									<i class="fa fa-users fa-2x circle-icon" style="color:#ffff";></i>
@@ -384,20 +409,20 @@
 		    <div class="container-fluid newslettar">
 				<div class="row">
 					<div class="newsleter">
-					<div class="col-md-12 text-center mt-5"><h6>Newsletter</h6></div>
-					<div class="sol-sm-12">
-						<div class="text-content text-center pb-4">
-							<h2>JOIN US</h2>
-							<p> Lorem, ipsum dolor sit amet molestias aperiam quo accusamus fuga ducimus. </p>
-						</div>
-						<form class="newsletter">
-						<div class="row">
-							<div class="col-md-12">
-							    <input class="form-control" placeholder="Email Address here" name="email" type="email">					 
-							    <button class="subscribe-btn" type="submit">Subscribe</button>
+						<div class="col-md-12 text-center mt-5"><h6>Newsletter</h6></div>
+						<div class="sol-sm-12">
+							<div class="text-content text-center pb-4">
+								<h2>JOIN US</h2>
+								<p> Lorem, ipsum dolor sit amet molestias aperiam quo accusamus fuga ducimus. </p>
 							</div>
-							 
-						</form>
+							<form class="newsletter">
+								<div class="row">
+									<div class="col-md-12">
+										<input class="form-control" placeholder="Email Address here" name="email" type="email">					 
+										<button class="subscribe-btn" type="submit">Subscribe</button>
+									</div>
+								</div>						
+							</form>
 						</div>
 					</div>
 				</div>
@@ -487,41 +512,7 @@
 		<!-- End Footer Section -->	
 
 		
- 
-
-   
-
-  
-
-		 
 		
-   
-		 
-     
-		
-
- 
-	 
-	 
-	
-		 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-		 
 
 		<!--  js -->
 
