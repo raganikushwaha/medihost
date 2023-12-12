@@ -31,6 +31,7 @@
 					<li class="nav-item"><a class="nav-link" href="#about">Hospitals</a></li>
 					<li class="nav-item"><a href="#" class="nav-link">Contact</a></li>
 				</ul>
+				
 			</div>
     		<button class="button">Contact</button>
     		<button class="navbar-toggler" onclick="toggleMenu()">☰</button>
@@ -71,8 +72,8 @@
 			<div class="topbanner"></div>
 			<div class="topbannercontent">
 				<h1 class="text-white">We are ready <br>to help health <br> problem.</h1>
-				<p class="text-white mt-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit.  <br>Etiam et purus a odio  finibus bibendum amet leo.</p>
-				<div class="mt-5">
+				<p class="text-white mt-3">Lorem ipsum dolor sit amet, consectetur adipiscing elit.  <br>Etiam et purus a odio  finibus bibendum amet leo.</p>
+				<div class="">
 					<button class="banner-btn">Get free consultation   <i class="fa-solid fa-arrow-left ps-2"></i>  </button>
 				</div>
 		    </div>  	 
