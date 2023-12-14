@@ -12,6 +12,10 @@
 		<link rel="stylesheet" type="text/css" href="asset/css/owl.carousel.min.css">
 
 		<title>MediHost</title>
+		<style>
+
+			
+		</style>
 
 		 
   	</head>
@@ -24,12 +28,13 @@
 
 			<div class="menu">
 				<ul class="nav-list">
-					<li class="nav-item"><a class="nav-link active" aria-current="page" href="#home">Home</a></li>
-					<li class="nav-item"><a class="nav-link" href="#about">About Us</a></li>
-					<li class="nav-item"><a class="nav-link" href="#doctors">Our Doctors</a></li>
-					<li class="nav-item"><a class="nav-link" href="#services">Services</a></li>
-					<li class="nav-item"><a class="nav-link" href="#about">Hospitals</a></li>
-					<li class="nav-item"><a href="#" class="nav-link">Contact</a></li>
+					<li class="nav-item"><a class="nav-link active" aria-current="page" href="#home">Home</a></li>				 
+					<li class="nav-item"><a class="nav-link" href="#doctors">Trusted Doctors</a></li>
+					<li class="nav-item"><a class="nav-link" href="#services">Top Hospitals</a></li>
+					<li class="nav-item"><a class="nav-link" href="#about">Medical Visa</a></li>
+					<li class="nav-item"><a class="nav-link" href="#about">Free consultation</a></li>
+					<li class="nav-item"><a class="nav-link" href="#about">Videos</a></li>
+					 
 				</ul>
 				
 			</div>
@@ -43,109 +48,93 @@
 				navbar.classList.toggle('active');
 			}
 		</script>
-
-
-		<!-- <header>
-			<nav class="navbar navbar-expand-lg navigation-wrap">
-				<div class="container">
-					<a class="navbar-brand" href="#"><img src="images/logo.jpg"></a>
-					<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText"
-					aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
-					<i class="fas fa-stream navbar-toggler-icon"></i></button>
-					<div class="collapse navbar-collapse" id="navbarText">
-						<ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-							<li class="nav-item"><a class="nav-link active" aria-current="page" href="#home">Home</a></li>
-							<li class="nav-item"><a class="nav-link" href="#about">About Us</a></li>
-							<li class="nav-item"><a class="nav-link" href="#doctors">Our Doctors</a></li>
-							<li class="nav-item"><a class="nav-link" href="#services">Services</a></li>
-							<li class="nav-item"><a class="nav-link" href="#about">Hospitals</a></li>					 
-						</ul>
-						<button class="main-btn">Contact</button>
-					</div>
-				</div>
-			</nav>
-		</header> -->
-
+ 
 		<!-- section-1 top-banner -->
 			 
 		<section id="home"> 
-			<div class="topbanner"></div>
-			<div class="topbannercontent">
-				<h1 class="text-white">We are ready <br>to help health <br> problem.</h1>
-				<p class="text-white mt-3">Lorem ipsum dolor sit amet, consectetur adipiscing elit.  <br>Etiam et purus a odio  finibus bibendum amet leo.</p>
-				<div class="">
-					<button class="banner-btn">Get free consultation   <i class="fa-solid fa-arrow-left ps-2"></i>  </button>
+			<div class="topbanner">
+				<div class="topbannercontent">
+					<h1 class="text-white">We are ready <br>to help health <br> problem.</h1>
+					<p class="text-white mt-3">Lorem ipsum dolor sit amet, consectetur adipiscing elit.  <br>Etiam et purus a odio  finibus bibendum amet leo.</p>
+					
+					<div class="">
+						<button class="banner-btn">Get free consultation <i class="fa-solid fa-arrow-left ps-2"></i>  </button>
+					</div>
+				</div> 
+				<div class="banner-form">
+					<h3>Need Help?</h3>
+					<form action="#" method="post">     
+					    <input type="text" id="name" name="name" required placeholder=" Patient Name">     
+						<input type="email" id="email" name="email" required placeholder="Email: ">
+						<input type="text" id=" " name=" " required placeholder="City">
+						<input type="number" id=" " name=" " required placeholder="Number">
+						<input type="textarea" id=" " name=" " required placeholder="describe">
+						<input type="submit" value="Submit">		
+					</form>		    
 				</div>
-		    </div>  	 
+			</div> 	 
 		</section>
 
+		<!-- section 2 -->
 
+		<section class="container-fluid plan-to-travel-section">
+		    <div class="row planning-block ">
+                <h3 class="planning-heading">Trusted Doctors, Top Hospitals, Hassles Taken Care</h3>
+				<div class="plan-travel-cards d-flex">
+				    <div class="card col-md-3 col-lg-3 col-sm-3 col-xs-3">
+					    <figure class="plan-travel-img"> 
+                            <img src="asset/svg/consult-hos-video.svg">                                
+                         </figure>
+                        <figcaption class="card-text">Assistance in choosing the right doctor</figcaption>       
+                    </div>    
 
-		<!-- about section -->
-		<section id="about">
-			<div class="we-help-section">
-				<div class="container">
-					<div class="row justify-content-between">
-						<div class="col-lg-7 mb-5 mb-lg-0">
-							<div class="imgs-grid">
-								<div class="grid grid-1"><img src="asset/img/banner.jpg" alt="Untree.co"></div>
-								
-								<div class="grid grid-2"><img src=" asset/img/hero-fullscreen-bg.jpg" alt="Untree.co"></div>
-							</div>
+					<div class="card col-md-3 col-lg-3 col-sm-3 col-xs-3">
+					    <figure class="plan-travel-img"> 
+                            <img src="asset/svg/book-appointment.svg"> 
+                        </figure>
+                        <figcaption class="card-text">Prompt </br>appointments</figcaption>    
+                    </div>
+
+					<div class="card col-md-3 col-lg-3 col-sm-3 col-xs-3 ">
+                        <figure class="plan-travel-img">
+                            <img src="asset/svg/compare-cost.svg">                                
+                         </figure>
+                         <figcaption class="card-text">Compare cost, get exclusive packages</figcaption>
+                    </div>
+					
+                    <div class="card col-md-3 col-lg-3 col-sm-3 col-xs-3 ">
+                        <figure class="plan-travel-img"> 
+                             <img src="asset/svg/hospital-support.svg">                                
+                         </figure>
+                        <figcaption class="card-text">Help in </br>hospitalisation</figcaption>
+                    </div>       
+                </div>
+                    
+            </div>
+            <!-- feature button -->
+			<div class="row planning-block bg-white">
+			   <div class="plan-travel-cards">
+					<div class="col-md-12 col-lg-12 col-sm-12 col-xs-12 text-center">
+					    <div class="how-we-work-btn"> 
+							<a class="howdoestbtn" href="#"> How Does it Work</a> 
+							<a class="contactbtn" href="#">Contact Us now</a> 
 						</div>
-			
-						<div class="col-lg-5 ps-lg-5 about-content">
-							<h3 class="section-title mb-4">About Us</h3>
-							<h2 class="section-title mb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. </h2>
-							<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident soluta voluptate tenetur cum, natus rem praesentium autem rerum sunt a sint. Nihil voluptates, saepe voluptatum amet eligendi ut. Officiis, repudiandae.</p>
-
-							<ul class="list-unstyled custom-list my-4">
-								<li>Lorem ipsum dolor sit</li>
-								<li>Lorem ipsum dolor sit</li>
-								<li>Lorem ipsum dolor sit</li>
-								<li>Lorem ipsum dolor sit</li>
-								<li>Lorem ipsum dolor sit</li>					 
-							</ul>
-							<button class="aboutbtn">Discover More</button>
-						</div>
+									 
 					</div>
-				</div>
-			</div>
-		</section> 
-
-		<!-- section-3 story-->
-		<section id="doctors">
-			<div class="story-section">
-				<div class="container">
-					<div class="row">
-						<div class="col-sm-12 col-md-12">
-							<div class="text-content">
-								<h2>Lorem ipsum dolor sit amet, consectetur adipiscing elit. </h2>
-								<h6>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam et purus a odio
-								finibus bibendum in sit amet leo. Mauris feugiat erat tellus.</h6>
-								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam et purus a odio
-								finibus bibendum in sit amet leo. Mauris feugiat erat tellus.
-								Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam et purus a odio
-								finibus bibendum in sit amet leo. Mauris feugiat erat tellus.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam et purus a odio
-								finibus bibendum in sit amet leo. Mauris feugiat erat tellus.</p>
-								<button class="storybtn mt-3">Discover More</button>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
+				</div>			
+			</div>           	  
         </section>
-
+		
 		<!-- services -->
 		 
 		<section id="services">
 			<div class="container mb-5">
 				<div class="services">
 					<div class="row">
-						<div class="col-md-12 text-center mt-5"><h6>Services</h6></div>
+						<div class="col-md-12 text-center mt-5"><h6>Updates</h6></div>
 						<div class="col-sm-12">
 							<div class="text-content text-center">
-								<h2>Lorem ipsum dolor sit amet.</h2>
+								<h2>New Updates</h2>
 								<p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam et purus a odio finibus bibendum in sit
 								amet leo. Mauris feugiat erat tellus. Far far away, behind the word mountains, far from the countries
 								Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove.</p>
@@ -206,6 +195,101 @@
 				    </div>
 				</div>			
 			</div>
+        </section>
+
+
+		<!-- testimonials -->
+		<section class="mt-5">
+			<div class="container">
+				<div class="row">
+					<div class="slider-text">
+						<h6>Review</h6>
+						<div class="col-md-4">
+							<h1>Reviews</h1>
+							<p> Lorem ipsum dolor sit amet, consectetur adipisicing elit.  inventore nisi velit minima.</p>			 
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="container">			 
+				<div class="slider">
+					<div class="owl-carousel">
+
+						<div class="slider-card">
+							<div class="">
+								<img  class="img-fluid" src=" asset/img/hero-fullscreen-bg.jpg" alt="" >
+							</div>				
+							<p class="text-center">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam temporibus quidem magni qui doloribus quasi natus inventore nisi velit minima.</p>
+							
+							<div class="star-rating text-center">
+								<ul class="list-inline">
+									<li class="list-inline-item"><i class="fa fa-star"></i></li>
+									<li class="list-inline-item"><i class="fa fa-star"></i></li>
+									<li class="list-inline-item"><i class="fa fa-star"></i></li>
+									<li class="list-inline-item"><i class="fa fa-star"></i></li>
+									<li class="list-inline-item"><i class="fa-regular fa-star"></i>
+								</ul>
+							</div>
+							<p class="overview"><b>Michael Holz</b>Seo Analyst </p>						
+						</div>
+
+						<div class="slider-card">
+							<div class="">
+								<img  class="img-fluid" src="asset/img/hero-fullscreen-bg.jpg" alt="" >
+							</div>				
+							<p class="text-center">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam temporibus quidem magni qui doloribus quasi natus inventore nisi velit minima.</p>
+							
+							<div class="star-rating text-center">
+								<ul class="list-inline">
+									<li class="list-inline-item"><i class="fa fa-star"></i></li>
+									<li class="list-inline-item"><i class="fa fa-star"></i></li>
+									<li class="list-inline-item"><i class="fa fa-star"></i></li>
+									<li class="list-inline-item"><i class="fa fa-star"></i></li>
+									<li class="list-inline-item"><i class="fa-regular fa-star"></i>
+								</ul>
+							</div>
+							<p class="overview"><b>Michael Holz</b>Seo Analyst </p>						
+						</div>
+
+						<div class="slider-card">
+							<div class="">
+								<img  class="img-fluid" src="asset/img/hero-fullscreen-bg.jpg" alt="" >
+							</div>				
+							<p class="text-center">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam temporibus quidem magni qui doloribus quasi natus inventore nisi velit minima.</p>
+							
+							<div class="star-rating text-center">
+								<ul class="list-inline">
+									<li class="list-inline-item"><i class="fa fa-star"></i></li>
+									<li class="list-inline-item"><i class="fa fa-star"></i></li>
+									<li class="list-inline-item"><i class="fa fa-star"></i></li>
+									<li class="list-inline-item"><i class="fa fa-star"></i></li>
+									<li class="list-inline-item"><i class="fa-regular fa-star"></i>
+								</ul>
+							</div>
+							<p class="overview"><b>Michael Holz</b>Seo Analyst </p>						
+						</div>
+
+						<div class="slider-card">
+							<div class="">
+								<img  class="img-fluid" src="asset/img/hero-fullscreen-bg.jpg" alt="" >
+							</div>				
+							<p class="text-center">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam temporibus quidem magni qui doloribus quasi natus inventore nisi velit minima.</p>
+							
+							<div class="star-rating text-center">
+								<ul class="list-inline">
+									<li class="list-inline-item"><i class="fa fa-star"></i></li>
+									<li class="list-inline-item"><i class="fa fa-star"></i></li>
+									<li class="list-inline-item"><i class="fa fa-star"></i></li>
+									<li class="list-inline-item"><i class="fa fa-star"></i></li>
+									<li class="list-inline-item"><i class="fa-regular fa-star"></i>
+								</ul>
+							</div>
+							<p class="overview"><b>Michael Holz</b>Seo Analyst </p>						
+						</div>
+						
+					</div>
+				</div>
+		    </div>
         </section>
 
 		<!-- blogs -->
@@ -309,100 +393,70 @@
 			</div>     
         </div>
 
-		<!-- testimonials -->
-		<section class="mt-5">
-			<div class="container">
-				<div class="row">
-					<div class="slider-text">
-						<h6> Testimonials</h6>
-						<div class="col-md-4">
-							<h1 > Responsive Owl Carousel </h1>
-							<p > Lorem ipsum dolor sit amet, consectetur adipisicing elit.  inventore nisi velit minima.</p>			 
+    
+
+		
+
+		
+		<!-- section-3 story-->
+		<section id="doctors">
+			<div class="story-section">
+				<div class="container">
+					<div class="row">
+						<div class="col-sm-12 col-md-12">
+							<div class="text-content">
+								<h2>Lorem ipsum dolor sit amet, consectetur adipiscing elit. </h2>
+								<h6>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam et purus a odio
+								finibus bibendum in sit amet leo. Mauris feugiat erat tellus.</h6>
+								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam et purus a odio
+								finibus bibendum in sit amet leo. Mauris feugiat erat tellus.
+								Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam et purus a odio
+								finibus bibendum in sit amet leo. Mauris feugiat erat tellus.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam et purus a odio
+								finibus bibendum in sit amet leo. Mauris feugiat erat tellus.</p>
+								<button class="storybtn mt-3">Discover More</button>
+							</div>
 						</div>
 					</div>
 				</div>
 			</div>
-			<div class="container">			 
-				<div class="slider">
-					<div class="owl-carousel">
-
-						<div class="slider-card">
-							<div class="">
-								<img  class="img-fluid" src=" asset/img/hero-fullscreen-bg.jpg" alt="" >
-							</div>				
-							<p class="text-center">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam temporibus quidem magni qui doloribus quasi natus inventore nisi velit minima.</p>
-							
-							<div class="star-rating text-center">
-								<ul class="list-inline">
-									<li class="list-inline-item"><i class="fa fa-star"></i></li>
-									<li class="list-inline-item"><i class="fa fa-star"></i></li>
-									<li class="list-inline-item"><i class="fa fa-star"></i></li>
-									<li class="list-inline-item"><i class="fa fa-star"></i></li>
-									<li class="list-inline-item"><i class="fa-regular fa-star"></i>
-								</ul>
-							</div>
-							<p class="overview"><b>Michael Holz</b>Seo Analyst </p>						
-						</div>
-
-						<div class="slider-card">
-							<div class="">
-								<img  class="img-fluid" src="asset/img/hero-fullscreen-bg.jpg" alt="" >
-							</div>				
-							<p class="text-center">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam temporibus quidem magni qui doloribus quasi natus inventore nisi velit minima.</p>
-							
-							<div class="star-rating text-center">
-								<ul class="list-inline">
-									<li class="list-inline-item"><i class="fa fa-star"></i></li>
-									<li class="list-inline-item"><i class="fa fa-star"></i></li>
-									<li class="list-inline-item"><i class="fa fa-star"></i></li>
-									<li class="list-inline-item"><i class="fa fa-star"></i></li>
-									<li class="list-inline-item"><i class="fa-regular fa-star"></i>
-								</ul>
-							</div>
-							<p class="overview"><b>Michael Holz</b>Seo Analyst </p>						
-						</div>
-
-						<div class="slider-card">
-							<div class="">
-								<img  class="img-fluid" src="asset/img/hero-fullscreen-bg.jpg" alt="" >
-							</div>				
-							<p class="text-center">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam temporibus quidem magni qui doloribus quasi natus inventore nisi velit minima.</p>
-							
-							<div class="star-rating text-center">
-								<ul class="list-inline">
-									<li class="list-inline-item"><i class="fa fa-star"></i></li>
-									<li class="list-inline-item"><i class="fa fa-star"></i></li>
-									<li class="list-inline-item"><i class="fa fa-star"></i></li>
-									<li class="list-inline-item"><i class="fa fa-star"></i></li>
-									<li class="list-inline-item"><i class="fa-regular fa-star"></i>
-								</ul>
-							</div>
-							<p class="overview"><b>Michael Holz</b>Seo Analyst </p>						
-						</div>
-
-						<div class="slider-card">
-							<div class="">
-								<img  class="img-fluid" src="asset/img/hero-fullscreen-bg.jpg" alt="" >
-							</div>				
-							<p class="text-center">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam temporibus quidem magni qui doloribus quasi natus inventore nisi velit minima.</p>
-							
-							<div class="star-rating text-center">
-								<ul class="list-inline">
-									<li class="list-inline-item"><i class="fa fa-star"></i></li>
-									<li class="list-inline-item"><i class="fa fa-star"></i></li>
-									<li class="list-inline-item"><i class="fa fa-star"></i></li>
-									<li class="list-inline-item"><i class="fa fa-star"></i></li>
-									<li class="list-inline-item"><i class="fa-regular fa-star"></i>
-								</ul>
-							</div>
-							<p class="overview"><b>Michael Holz</b>Seo Analyst </p>						
-						</div>
-						
-					</div>
-				</div>
-		    </div>
         </section>
 
+		
+
+		
+		<!-- about section -->
+		<section id="about">
+			<div class="we-help-section">
+				<div class="container">
+					<div class="row justify-content-between">
+						<div class="col-lg-7 mb-5 mb-lg-0">
+							<div class="imgs-grid">
+								<div class="grid grid-1"><img src="asset/img/banner.jpg" alt="Untree.co"></div>
+								
+								<div class="grid grid-2"><img src=" asset/img/hero-fullscreen-bg.jpg" alt="Untree.co"></div>
+							</div>
+						</div>
+			
+						<div class="col-lg-5 ps-lg-5 about-content">
+							<h3 class="section-title mb-4">About Us</h3>
+							<h2 class="section-title mb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. </h2>
+							<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident soluta voluptate tenetur cum, natus rem praesentium autem rerum sunt a sint. Nihil voluptates, saepe voluptatum amet eligendi ut. Officiis, repudiandae.</p>
+
+							<ul class="list-unstyled custom-list my-4">
+								<li>Lorem ipsum dolor sit</li>
+								<li>Lorem ipsum dolor sit</li>
+								<li>Lorem ipsum dolor sit</li>
+								<li>Lorem ipsum dolor sit</li>
+								<li>Lorem ipsum dolor sit</li>					 
+							</ul>
+							<button class="aboutbtn">Discover More</button>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section> 
+
+		
 
 
 		<!-- section-8 newslettar-->
