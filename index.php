@@ -13,8 +13,7 @@
 
 		<title>MediHost</title>
 		<style>
-
-			
+    
 		</style>
 
 		 
@@ -29,10 +28,10 @@
 			<div class="menu">
 				<ul class="nav-list">
 					<li class="nav-item"><a class="nav-link active" aria-current="page" href="#home">Home</a></li>				 
-					<li class="nav-item"><a class="nav-link" href="#doctors">Trusted Doctors</a></li>
-					<li class="nav-item"><a class="nav-link" href="#services">Top Hospitals</a></li>
-					<li class="nav-item"><a class="nav-link" href="#about">Medical Visa</a></li>
-					<li class="nav-item"><a class="nav-link" href="#about">Free consultation</a></li>
+					<li class="nav-item"><a class="nav-link" href="#doctors">Doctors</a></li>
+					<li class="nav-item"><a class="nav-link" href="#services">Hospitals</a></li>
+					<li class="nav-item"><a class="nav-link" href="#about">Treatments</a></li>
+					<li class="nav-item"><a class="nav-link" href="#about">Medical Visa</a></li>				
 					<li class="nav-item"><a class="nav-link" href="#about">Videos</a></li>
 					 
 				</ul>
@@ -54,11 +53,11 @@
 		<section id="home"> 
 			<div class="topbanner">
 				<div class="topbannercontent">
-					<h1 class="text-white">We are ready <br>to help health <br> problem.</h1>
-					<p class="text-white mt-3">Lorem ipsum dolor sit amet, consectetur adipiscing elit.  <br>Etiam et purus a odio  finibus bibendum amet leo.</p>
+					<h1 class="text-white">Treatment With Unmatched Personal Care</h1>
+					<p class="text-white">Connect with top healthcare providers from all over the world</p>
 					
 					<div class="">
-						<button class="banner-btn">Get free consultation <i class="fa-solid fa-arrow-left ps-2"></i>  </button>
+						<button class="banner-btn">Get free consultation</button>
 					</div>
 				</div> 
 				<div class="banner-form">
@@ -146,7 +145,7 @@
 						<div class="col-md-3 mb-3">
 							<div class="card">
 								<div class="cardesign">
-									<i class="fa fa-users fa-2x circle-icon" style="color:#ffff";></i>
+								<i class="fa fa-heart-pulse fa-2x circle-icon" style="color:#ffff";></i>
 									<div class="pt-3">
 										<h5>Lorem ipsum </h5>
 										<p class="mt-5 text-muted">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam et purus 
@@ -159,7 +158,8 @@
 						<div class="col-md-3 mb-3">
 							<div class="card">
 								<div class="cardesign">
-									<i class="fa fa-users fa-2x circle-icon" style="color:#ffff";></i>
+								 
+									<i class="fa fa-stethoscope fa-2x circle-icon" style="color:#ffff";></i>
 									<div class="pt-3">
 										<h5>Lorem ipsum </h5>
 										<p class="mt-5 text-muted">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam et purus 
@@ -171,7 +171,8 @@
 						<div class="col-md-3 mb-3">
 							<div class="card">
 								<div class="cardesign">
-									<i class="fa fa-users fa-2x circle-icon" style="color:#ffff";></i>
+								 
+									<i class="fa fa-clipboard fa-2x circle-icon" style="color:#ffff";></i>
 									<div class="pt-3">
 										<h5>Lorem ipsum </h5>
 										<p class="mt-5 text-muted">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam et purus 
@@ -183,7 +184,8 @@
 						<div class="col-md-3 mb-3">
 							<div class="card">
 								<div class="cardesign">
-									<i class="fa fa-users fa-2x circle-icon" style="color:#ffff";></i>
+								 
+									<i class="fa fa-staff-snake fa-2x circle-icon" style="color:#ffff";></i>
 									<div class="pt-3">
 										<h5>Lorem ipsum </h5>
 										<p class="mt-5 text-muted">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam et purus 
